@@ -1,0 +1,2 @@
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    hardware/transsion/sepolicy/libperfmgr/vendor
