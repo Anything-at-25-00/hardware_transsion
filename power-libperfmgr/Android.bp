@@ -12,14 +12,14 @@ soong_namespace {
 }
 
 cc_binary {
-    name: "android.hardware.power-service.lineage-libperfmgr",
+    name: "android.hardware.power-service.transsion-libperfmgr",
     defaults: [
         "android.hardware.power-ndk_shared",
         "power_libperfmgr_defaults",
     ],
     relative_install_path: "hw",
-    init_rc: ["aidl/android.hardware.power-service.lineage-libperfmgr.rc"],
-    vintf_fragments: ["aidl/android.hardware.power-service.lineage.xml"],
+    init_rc: ["aidl/android.hardware.power-service.transsion-libperfmgr.rc"],
+    vintf_fragments: ["aidl/android.hardware.power-service.transsion.xml"],
     vendor: true,
     cflags: [
         "-Wno-unused-variable",
